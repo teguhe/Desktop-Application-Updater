@@ -1,0 +1,70 @@
+object fMain: TfMain
+  Left = 0
+  Top = 0
+  Margins.Left = 6
+  Margins.Top = 6
+  Margins.Right = 6
+  Margins.Bottom = 6
+  Caption = 'fMain'
+  ClientHeight = 810
+  ClientWidth = 1064
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -24
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OnCreate = FormCreate
+  PixelsPerInch = 192
+  TextHeight = 32
+  object mLog: TMemo
+    Left = 11
+    Top = 76
+    Width = 1042
+    Height = 517
+    Margins.Left = 6
+    Margins.Top = 6
+    Margins.Right = 6
+    Margins.Bottom = 6
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Consolas'
+    Font.Style = []
+    Lines.Strings = (
+      'Memo1')
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 720
+    Width = 1064
+    Height = 90
+    Margins.Left = 6
+    Margins.Top = 6
+    Margins.Right = 6
+    Margins.Bottom = 6
+    Align = alBottom
+    BevelOuter = bvNone
+    Caption = 'Panel1'
+    TabOrder = 1
+    ExplicitLeft = -11
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 0
+    Width = 1064
+    Height = 90
+    Margins.Left = 6
+    Margins.Top = 6
+    Margins.Right = 6
+    Margins.Bottom = 6
+    Align = alTop
+    BevelOuter = bvNone
+    Caption = 'Panel1'
+    TabOrder = 2
+    ExplicitLeft = -11
+    ExplicitTop = 720
+  end
+end

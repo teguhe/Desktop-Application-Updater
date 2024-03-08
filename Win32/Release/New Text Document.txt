@@ -1,0 +1,4 @@
+; Ini Files for Application Updater by Teguh Prasetyo
+[owner]
+name = Teguh Prasetyo
+organization = Private

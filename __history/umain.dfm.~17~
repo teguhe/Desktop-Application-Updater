@@ -1,0 +1,80 @@
+object fMain: TfMain
+  Left = 0
+  Top = 0
+  Margins.Left = 6
+  Margins.Top = 6
+  Margins.Right = 6
+  Margins.Bottom = 6
+  Caption = 'fMain'
+  ClientHeight = 810
+  ClientWidth = 1064
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -24
+  Font.Name = 'Consolas'
+  Font.Style = []
+  OnCreate = FormCreate
+  PixelsPerInch = 192
+  TextHeight = 28
+  object mLog: TMemo
+    Left = 0
+    Top = 90
+    Width = 1064
+    Height = 630
+    Margins.Left = 6
+    Margins.Top = 6
+    Margins.Right = 6
+    Margins.Bottom = 6
+    Align = alClient
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Consolas'
+    Font.Style = []
+    Lines.Strings = (
+      'Memo1')
+    ParentFont = False
+    TabOrder = 0
+    ExplicitLeft = 11
+    ExplicitTop = 76
+    ExplicitWidth = 1042
+    ExplicitHeight = 517
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 720
+    Width = 1064
+    Height = 90
+    Margins.Left = 6
+    Margins.Top = 6
+    Margins.Right = 6
+    Margins.Bottom = 6
+    Align = alBottom
+    BevelOuter = bvNone
+    Caption = 'Application Updater v 1.0 by Teguh Prasetyo'
+    TabOrder = 1
+    ExplicitTop = 732
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 0
+    Width = 1064
+    Height = 90
+    Margins.Left = 6
+    Margins.Top = 6
+    Margins.Right = 6
+    Margins.Bottom = 6
+    Align = alTop
+    BevelOuter = bvNone
+    Caption = 'Update started, please wait ...'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
+    Font.Name = 'Consolas'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    ExplicitTop = -12
+  end
+end
